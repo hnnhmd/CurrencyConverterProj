@@ -1,0 +1,22 @@
+2023-02-25 10:09:36 TRACE TransactionProcessor:116 - 100 of cad currency subtracted from Bob
+2023-02-25 10:09:36 TRACE TransactionProcessor:118 - Bob is left with 20.0 cad
+2023-02-25 10:09:36 TRACE TransactionProcessor:123 - 100 cad is 76.98446412819399 usd which is 76.98446412819399 usd
+2023-02-25 10:09:36 TRACE TransactionProcessor:128 - 76.98446412819399 added for Bob and he now has 176.984464128194 usd
+2023-02-25 10:09:36 TRACE TransactionProcessor:116 - 20 of cad currency subtracted from Susan
+2023-02-25 10:09:36 TRACE TransactionProcessor:118 - Susan is left with 488.0 cad
+2023-02-25 10:09:36 TRACE TransactionProcessor:123 - 20 cad is 15.3968928256388 usd which is 15.171403718926795 eur
+2023-02-25 10:09:36 INFO  TransactionProcessor:138 - Susan did not start with any eur money - adding 15.171403718926795 eur
+2023-02-25 10:09:36 WARN  TransactionProcessor:107 - Tommy does not have enough usd money to convert the requested amount
+2023-02-25 10:09:36 TRACE TransactionProcessor:116 - 30 of usd currency subtracted from Bob
+2023-02-25 10:09:36 TRACE TransactionProcessor:118 - Bob is left with 146.984464128194 usd
+2023-02-25 10:09:36 TRACE TransactionProcessor:123 - 30 usd is 30.0 usd which is 235.463375393127 hkd
+2023-02-25 10:09:36 INFO  TransactionProcessor:138 - Bob did not start with any hkd money - adding 235.463375393127 hkd
+2023-02-25 10:09:36 TRACE TransactionProcessor:116 - 184 of hkd currency subtracted from Bob
+2023-02-25 10:09:36 TRACE TransactionProcessor:118 - Bob is left with 51.463375393126995 hkd
+2023-02-25 10:09:36 TRACE TransactionProcessor:123 - 184 hkd is 23.4431362872632 usd which is 32233.111361339234 krw
+2023-02-25 10:09:36 INFO  TransactionProcessor:138 - Bob did not start with any krw money - adding 32233.111361339234 krw
+2023-02-25 10:09:36 TRACE TransactionProcessor:116 - 100 of usd currency subtracted from Hannan
+2023-02-25 10:09:36 TRACE TransactionProcessor:118 - Hannan is left with 152.34 usd
+2023-02-25 10:09:36 TRACE TransactionProcessor:123 - 100 usd is 100.0 usd which is 100.0 usd
+2023-02-25 10:09:36 TRACE TransactionProcessor:128 - 100.0 added for Hannan and he now has 252.34 usd
+2023-02-25 10:09:36 FATAL TransactionProcessor:157 - Throwing error because some users do not possess enough money to convert

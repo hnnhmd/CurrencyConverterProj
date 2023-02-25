@@ -1,0 +1,19 @@
+<Configuration status="warn" monitorInterval="5">
+	
+	<Appenders>
+		<Console name = "StdOut" target = "SYSTEM_OUT">
+			<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n" />
+		</Console>
+		<File name = "FileAppender" filename="./src/main/resources/out.log">
+			<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n" />
+		</File>
+	</Appenders>
+	
+	<Loggers>
+		<Root level="trace">
+			<AppenderRef ref = "FileAppender" level="trace" />
+			<AppenderRef ref = "StdOut" level="warn" />
+		</Root>
+	</Loggers>
+	
+</Configuration>
